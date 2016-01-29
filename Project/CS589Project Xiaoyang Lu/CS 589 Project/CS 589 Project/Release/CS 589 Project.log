@@ -1,0 +1,33 @@
+﻿生成启动时间为 2013/12/1 22:48:48。
+     1>项目“C:\Users\Gates_ice\Desktop\gatesice-iit-cs589-project-a09b71969ac3\CS 589 Project\CS 589 Project\CS 589 Project.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt account.cpp testreader.cpp main.cpp
+         account.cpp
+         testreader.cpp
+     1>testreader.cpp(38): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>testreader.cpp(45): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>testreader.cpp(47): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>testreader.cpp(49): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>testreader.cpp(51): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>testreader.cpp(56): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>testreader.cpp(60): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>testreader.cpp(75): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>testreader.cpp(77): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+         main.cpp
+     1>main.cpp(28): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gates_ice\Desktop\gatesice-iit-cs589-project-a09b71969ac3\CS 589 Project\Release\CS 589 Project.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gates_ice\Desktop\gatesice-iit-cs589-project-a09b71969ac3\CS 589 Project\Release\CS 589 Project.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gates_ice\Desktop\gatesice-iit-cs589-project-a09b71969ac3\CS 589 Project\Release\CS 589 Project.lib" /MACHINE:X86 /SAFESEH Release\account.obj
+         Release\testreader.obj
+         Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         CS 589 Project.vcxproj -> C:\Users\Gates_ice\Desktop\gatesice-iit-cs589-project-a09b71969ac3\CS 589 Project\Release\CS 589 Project.exe
+     1>已完成生成项目“C:\Users\Gates_ice\Desktop\gatesice-iit-cs589-project-a09b71969ac3\CS 589 Project\CS 589 Project\CS 589 Project.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.94
